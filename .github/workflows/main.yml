@@ -15,3 +15,6 @@ jobs:
             
             - name: run python program
               run: python extract_data.py 
+            - name: installing dependencies
+              run: pip install -r requirements.txt
+
